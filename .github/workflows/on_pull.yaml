@@ -1,0 +1,9 @@
+name: Hello
+on: pull
+jobs:
+  Hello-pull:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: print Hello pull
+      run: echo "Hello Pull"
