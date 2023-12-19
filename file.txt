@@ -1,1 +1,1 @@
-First line after checkout
+Second line in file.txt
