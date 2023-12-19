@@ -1,5 +1,5 @@
 name: Hello
-on: pull
+on: pull_request
 jobs:
   Hello-pull:
     runs-on: ubuntu-latest
