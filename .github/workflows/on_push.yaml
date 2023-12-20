@@ -5,9 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: using actions from github
-      run: echo "starting action"
       uses: actions/checkout@v4
-      run: echo "Action ended"
     - name: print name
       run: echo "Youssef Wagih"
     - name: print age
