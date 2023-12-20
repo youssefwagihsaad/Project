@@ -1,9 +1,10 @@
-name: Hello
+name: Testing before exam
 on: push
 jobs:
-  Hello:
+  job-workflow:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: print Hello
-      run: echo "Hello"
+    - name: print name
+      run: echo "Youssef Wagih"
+    - name: print age
+      run: echo "21 Years Old"
